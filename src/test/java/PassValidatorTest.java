@@ -10,7 +10,7 @@ public class PassValidatorTest {
 	public void test() {
 		 PassValidator ob=new PassValidator();
 
-		 boolean res=ob.isValid("abcd123");
+		 boolean res=ob.isValid("abcde123");
 
 		 assertEquals(true,res);
 
